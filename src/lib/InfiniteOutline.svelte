@@ -1,6 +1,7 @@
-<script>
-	export let size = '24';
-	export let color = 'currentColor';
+<script lang="ts">
+	export let size: string | number = "24";
+	export let strokeWidth: string | number = "32"
+	export let color: string = "currentColor";
 </script>
 
 <svg
@@ -13,9 +14,9 @@
 	class={$$props.class}
 	><title>ionicons-v5-j</title><path
 		d="M256,256s-48-96-126-96c-54.12,0-98,43-98,96s43.88,96,98,96c37.51,0,71-22.41,94-48"
-		style="fill:none;stroke:{color};stroke-linecap:round;stroke-miterlimit:10;stroke-width:32px"
+		style="fill:none;stroke:{color};stroke-linecap:round;stroke-miterlimit:10;stroke-width:{strokeWidth}px"
 	/><path
 		d="M256,256s48,96,126,96c54.12,0,98-43,98-96s-43.88-96-98-96c-37.51,0-71,22.41-94,48"
-		style="fill:none;stroke:{color};stroke-linecap:round;stroke-miterlimit:10;stroke-width:32px"
+		style="fill:none;stroke:{color};stroke-linecap:round;stroke-miterlimit:10;stroke-width:{strokeWidth}px"
 	/></svg
 >

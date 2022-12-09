@@ -1,6 +1,7 @@
-<script>
-	export let size = '24';
-	export let color = 'currentColor';
+<script lang="ts">
+	export let size: string | number = "24";
+	export let strokeWidth: string | number = "32"
+	export let color: string = "currentColor";
 </script>
 
 <svg
@@ -15,25 +16,25 @@
 		cx="129"
 		cy="96"
 		r="48"
-		style="fill:none;stroke:{color};stroke-linecap:round;stroke-linejoin:round;stroke-width:32px"
+		style="fill:none;stroke:{color};stroke-linecap:round;stroke-linejoin:round;stroke-width:{strokeWidth}px"
 	/><circle
 		cx="129"
 		cy="416"
 		r="48"
-		style="fill:none;stroke:{color};stroke-linecap:round;stroke-linejoin:round;stroke-width:32px"
+		style="fill:none;stroke:{color};stroke-linecap:round;stroke-linejoin:round;stroke-width:{strokeWidth}px"
 	/><line
 		x1="129"
 		y1="144"
 		x2="129"
 		y2="368"
-		style="fill:none;stroke:{color};stroke-linecap:round;stroke-linejoin:round;stroke-width:32px"
+		style="fill:none;stroke:{color};stroke-linecap:round;stroke-linejoin:round;stroke-width:{strokeWidth}px"
 	/><circle
 		cx="385"
 		cy="288"
 		r="48"
-		style="fill:none;stroke:{color};stroke-linecap:round;stroke-linejoin:round;stroke-width:32px"
+		style="fill:none;stroke:{color};stroke-linecap:round;stroke-linejoin:round;stroke-width:{strokeWidth}px"
 	/><path
 		d="M129,144c0,96,112,144,208,144"
-		style="fill:none;stroke:{color};stroke-linecap:round;stroke-linejoin:round;stroke-width:32px"
+		style="fill:none;stroke:{color};stroke-linecap:round;stroke-linejoin:round;stroke-width:{strokeWidth}px"
 	/></svg
 >

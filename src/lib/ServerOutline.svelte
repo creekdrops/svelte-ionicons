@@ -1,6 +1,7 @@
-<script>
-	export let size = '24';
-	export let color = 'currentColor';
+<script lang="ts">
+	export let size: string | number = "24";
+	export let strokeWidth: string | number = "32"
+	export let color: string = "currentColor";
 </script>
 
 <svg
@@ -16,15 +17,15 @@
 		cy="128"
 		rx="192"
 		ry="80"
-		style="fill:none;stroke:{color};stroke-linecap:round;stroke-miterlimit:10;stroke-width:32px"
+		style="fill:none;stroke:{color};stroke-linecap:round;stroke-miterlimit:10;stroke-width:{strokeWidth}px"
 	/><path
 		d="M448,214c0,44.18-86,80-192,80S64,258.18,64,214"
-		style="fill:none;stroke:{color};stroke-linecap:round;stroke-miterlimit:10;stroke-width:32px"
+		style="fill:none;stroke:{color};stroke-linecap:round;stroke-miterlimit:10;stroke-width:{strokeWidth}px"
 	/><path
 		d="M448,300c0,44.18-86,80-192,80S64,344.18,64,300"
-		style="fill:none;stroke:{color};stroke-linecap:round;stroke-miterlimit:10;stroke-width:32px"
+		style="fill:none;stroke:{color};stroke-linecap:round;stroke-miterlimit:10;stroke-width:{strokeWidth}px"
 	/><path
 		d="M64,127.24V384.76C64,428.52,150,464,256,464s192-35.48,192-79.24V127.24"
-		style="fill:none;stroke:{color};stroke-linecap:round;stroke-miterlimit:10;stroke-width:32px"
+		style="fill:none;stroke:{color};stroke-linecap:round;stroke-miterlimit:10;stroke-width:{strokeWidth}px"
 	/></svg
 >

@@ -1,6 +1,7 @@
-<script>
-	export let size = '24';
-	export let color = 'currentColor';
+<script lang="ts">
+	export let size: string | number = "24";
+	export let strokeWidth: string | number = "32"
+	export let color: string = "currentColor";
 </script>
 
 <svg
@@ -19,7 +20,7 @@
 		rx="88.12"
 		ry="88.12"
 		transform="translate(-106.04 256) rotate(-45)"
-		style="fill:none;stroke:{color};stroke-linecap:round;stroke-linejoin:round;stroke-width:32px"
+		style="fill:none;stroke:{color};stroke-linecap:round;stroke-linejoin:round;stroke-width:{strokeWidth}px"
 	/><rect
 		x="169.41"
 		y="156.59"
@@ -28,7 +29,7 @@
 		rx="32"
 		ry="32"
 		transform="translate(255.41 -107.45) rotate(45)"
-		style="fill:none;stroke:{color};stroke-linecap:round;stroke-linejoin:round;stroke-width:32px"
+		style="fill:none;stroke:{color};stroke-linecap:round;stroke-linejoin:round;stroke-width:{strokeWidth}px"
 	/><circle cx="256" cy="208" r="16" /><circle cx="304" cy="256" r="16" /><circle
 		cx="208"
 		cy="256"

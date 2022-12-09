@@ -1,6 +1,7 @@
-<script>
-	export let size = '24';
-	export let color = 'currentColor';
+<script lang="ts">
+	export let size: string | number = "24";
+	export let strokeWidth: string | number = "32"
+	export let color: string = "currentColor";
 </script>
 
 <svg
@@ -13,39 +14,39 @@
 	class={$$props.class}
 	><title>ionicons-v5-b</title><polyline
 		points="304 416 304 304 416 304"
-		style="fill:none;stroke:{color};stroke-linecap:square;stroke-miterlimit:10;stroke-width:32px"
+		style="fill:none;stroke:{color};stroke-linecap:square;stroke-miterlimit:10;stroke-width:{strokeWidth}px"
 	/><line
 		x1="314.2"
 		y1="314.23"
 		x2="432"
 		y2="432"
-		style="fill:none;stroke:{color};stroke-linecap:square;stroke-miterlimit:10;stroke-width:32px"
+		style="fill:none;stroke:{color};stroke-linecap:square;stroke-miterlimit:10;stroke-width:{strokeWidth}px"
 	/><polyline
 		points="208 96 208 208 96 208"
-		style="fill:none;stroke:{color};stroke-linecap:square;stroke-miterlimit:10;stroke-width:32px"
+		style="fill:none;stroke:{color};stroke-linecap:square;stroke-miterlimit:10;stroke-width:{strokeWidth}px"
 	/><line
 		x1="197.8"
 		y1="197.77"
 		x2="80"
 		y2="80"
-		style="fill:none;stroke:{color};stroke-linecap:square;stroke-miterlimit:10;stroke-width:32px"
+		style="fill:none;stroke:{color};stroke-linecap:square;stroke-miterlimit:10;stroke-width:{strokeWidth}px"
 	/><polyline
 		points="416 208 304 208 304 96"
-		style="fill:none;stroke:{color};stroke-linecap:square;stroke-miterlimit:10;stroke-width:32px"
+		style="fill:none;stroke:{color};stroke-linecap:square;stroke-miterlimit:10;stroke-width:{strokeWidth}px"
 	/><line
 		x1="314.23"
 		y1="197.8"
 		x2="432"
 		y2="80"
-		style="fill:none;stroke:{color};stroke-linecap:square;stroke-miterlimit:10;stroke-width:32px"
+		style="fill:none;stroke:{color};stroke-linecap:square;stroke-miterlimit:10;stroke-width:{strokeWidth}px"
 	/><polyline
 		points="96 304 208 304 208 416"
-		style="fill:none;stroke:{color};stroke-linecap:square;stroke-miterlimit:10;stroke-width:32px"
+		style="fill:none;stroke:{color};stroke-linecap:square;stroke-miterlimit:10;stroke-width:{strokeWidth}px"
 	/><line
 		x1="197.77"
 		y1="314.2"
 		x2="80"
 		y2="432"
-		style="fill:none;stroke:{color};stroke-linecap:square;stroke-miterlimit:10;stroke-width:32px"
+		style="fill:none;stroke:{color};stroke-linecap:square;stroke-miterlimit:10;stroke-width:{strokeWidth}px"
 	/></svg
 >

@@ -1,6 +1,7 @@
-<script>
-	export let size = '24';
-	export let color = 'currentColor';
+<script lang="ts">
+	export let size: string | number = "24";
+	export let strokeWidth: string | number = "32"
+	export let color: string = "currentColor";
 </script>
 
 <svg
@@ -18,13 +19,13 @@
 		height="352"
 		rx="48"
 		ry="48"
-		style="fill:none;stroke:{color};stroke-miterlimit:10;stroke-width:32px"
+		style="fill:none;stroke:{color};stroke-miterlimit:10;stroke-width:{strokeWidth}px"
 	/><line
 		x1="208"
 		y1="80"
 		x2="304"
 		y2="80"
-		style="fill:none;stroke:{color};stroke-linecap:round;stroke-linejoin:round;stroke-width:32px"
+		style="fill:none;stroke:{color};stroke-linecap:round;stroke-linejoin:round;stroke-width:{strokeWidth}px"
 	/><rect
 		x="112"
 		y="128"
@@ -32,34 +33,34 @@
 		height="96"
 		rx="32"
 		ry="32"
-		style="fill:none;stroke:{color};stroke-linecap:round;stroke-linejoin:round;stroke-width:32px"
+		style="fill:none;stroke:{color};stroke-linecap:round;stroke-linejoin:round;stroke-width:{strokeWidth}px"
 	/><circle
 		cx="176"
 		cy="320"
 		r="16"
-		style="fill:none;stroke:{color};stroke-linejoin:round;stroke-width:32px"
+		style="fill:none;stroke:{color};stroke-linejoin:round;stroke-width:{strokeWidth}px"
 	/><circle
 		cx="336"
 		cy="320"
 		r="16"
-		style="fill:none;stroke:{color};stroke-linejoin:round;stroke-width:32px"
+		style="fill:none;stroke:{color};stroke-linejoin:round;stroke-width:{strokeWidth}px"
 	/><line
 		x1="144"
 		y1="464"
 		x2="368"
 		y2="464"
-		style="fill:none;stroke:{color};stroke-linecap:round;stroke-linejoin:round;stroke-width:32px"
+		style="fill:none;stroke:{color};stroke-linecap:round;stroke-linejoin:round;stroke-width:{strokeWidth}px"
 	/><line
 		x1="336"
 		y1="432"
 		x2="384"
 		y2="480"
-		style="fill:none;stroke:{color};stroke-linecap:round;stroke-linejoin:round;stroke-width:32px"
+		style="fill:none;stroke:{color};stroke-linecap:round;stroke-linejoin:round;stroke-width:{strokeWidth}px"
 	/><line
 		x1="176"
 		y1="432"
 		x2="128"
 		y2="480"
-		style="fill:none;stroke:{color};stroke-linecap:round;stroke-linejoin:round;stroke-width:32px"
+		style="fill:none;stroke:{color};stroke-linecap:round;stroke-linejoin:round;stroke-width:{strokeWidth}px"
 	/></svg
 >

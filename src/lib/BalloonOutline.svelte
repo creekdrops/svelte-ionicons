@@ -1,6 +1,7 @@
-<script>
-	export let size = '24';
-	export let color = 'currentColor';
+<script lang="ts">
+	export let size: string | number = "24";
+	export let strokeWidth: string | number = "32"
+	export let color: string = "currentColor";
 </script>
 
 <svg
@@ -17,27 +18,27 @@
 		fill="none"
 		stroke={color}
 		stroke-miterlimit="10"
-		stroke-width="32"
+		stroke-width={strokeWidth}
 	/><path
 		d="M236.06,308.05c-32.83-13-67.08-43.1-82.27-85.46"
 		fill="none"
 		stroke={color}
 		stroke-linecap="round"
 		stroke-miterlimit="10"
-		stroke-width="32"
+		stroke-width={strokeWidth}
 	/><path
 		d="M367.7,495.78c-32.83-13-63.31-40.06-78.5-82.41"
 		fill="none"
 		stroke={color}
 		stroke-linecap="round"
 		stroke-miterlimit="10"
-		stroke-width="32"
+		stroke-width={strokeWidth}
 	/><polygon
 		points="266.71 368.21 257.54 417.82 320.85 408.92 298.36 363.76 266.71 368.21"
 		fill="none"
 		stroke={color}
 		stroke-linecap="round"
 		stroke-linejoin="round"
-		stroke-width="32"
+		stroke-width={strokeWidth}
 	/></svg
 >

@@ -1,6 +1,7 @@
-<script>
-	export let size = '24';
-	export let color = 'currentColor';
+<script lang="ts">
+	export let size: string | number = "24";
+	export let strokeWidth: string | number = "32"
+	export let color: string = "currentColor";
 </script>
 
 <svg
@@ -13,7 +14,7 @@
 	class={$$props.class}
 	><title>ionicons-v5-l</title><polyline
 		points="352 176 217.6 336 160 272"
-		style="fill:none;stroke:{color};stroke-linecap:round;stroke-linejoin:round;stroke-width:32px"
+		style="fill:none;stroke:{color};stroke-linecap:round;stroke-linejoin:round;stroke-width:{strokeWidth}px"
 	/><rect
 		x="64"
 		y="64"
@@ -21,6 +22,6 @@
 		height="384"
 		rx="48"
 		ry="48"
-		style="fill:none;stroke:{color};stroke-linejoin:round;stroke-width:32px"
+		style="fill:none;stroke:{color};stroke-linejoin:round;stroke-width:{strokeWidth}px"
 	/></svg
 >

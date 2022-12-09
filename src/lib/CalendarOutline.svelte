@@ -1,6 +1,7 @@
-<script>
-	export let size = '24';
-	export let color = 'currentColor';
+<script lang="ts">
+	export let size: string | number = "24";
+	export let strokeWidth: string | number = "32"
+	export let color: string = "currentColor";
 </script>
 
 <svg
@@ -15,7 +16,7 @@
 		fill="none"
 		stroke={color}
 		stroke-linejoin="round"
-		stroke-width="32"
+		stroke-width={strokeWidth}
 		x="48"
 		y="80"
 		width="416"
@@ -37,7 +38,7 @@
 		fill="none"
 		stroke={color}
 		stroke-linejoin="round"
-		stroke-width="32"
+		stroke-width={strokeWidth}
 		stroke-linecap="round"
 		x1="128"
 		y1="48"
@@ -47,7 +48,7 @@
 		fill="none"
 		stroke={color}
 		stroke-linejoin="round"
-		stroke-width="32"
+		stroke-width={strokeWidth}
 		stroke-linecap="round"
 		x1="384"
 		y1="48"
@@ -57,7 +58,7 @@
 		fill="none"
 		stroke={color}
 		stroke-linejoin="round"
-		stroke-width="32"
+		stroke-width={strokeWidth}
 		x1="464"
 		y1="160"
 		x2="48"

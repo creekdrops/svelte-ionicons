@@ -1,6 +1,7 @@
-<script>
-	export let size = '24';
-	export let color = 'currentColor';
+<script lang="ts">
+	export let size: string | number = "24";
+	export let strokeWidth: string | number = "10"
+	export let color: string = "currentColor";
 </script>
 
 <svg
@@ -15,22 +16,22 @@
 		cx="256"
 		cy="256"
 		r="26"
-		style="stroke:{color};stroke-miterlimit:10;stroke-width:10px"
+		style="stroke:{color};stroke-miterlimit:10;stroke-width:{strokeWidth}px"
 	/><circle
 		cx="346"
 		cy="256"
 		r="26"
-		style="stroke:{color};stroke-miterlimit:10;stroke-width:10px"
+		style="stroke:{color};stroke-miterlimit:10;stroke-width:{strokeWidth}px"
 	/><circle
 		cx="166"
 		cy="256"
 		r="26"
-		style="stroke:{color};stroke-miterlimit:10;stroke-width:10px"
+		style="stroke:{color};stroke-miterlimit:10;stroke-width:{strokeWidth}px"
 	/><polyline
 		points="160 368 32 256 160 144"
-		style="fill:none;stroke:{color};stroke-linecap:round;stroke-linejoin:round;stroke-width:42px"
+		style="fill:none;stroke:{color};stroke-linecap:round;stroke-linejoin:round;stroke-width:{strokeWidth}px"
 	/><polyline
 		points="352 368 480 256 352 144"
-		style="fill:none;stroke:{color};stroke-linecap:round;stroke-linejoin:round;stroke-width:42px"
+		style="fill:none;stroke:{color};stroke-linecap:round;stroke-linejoin:round;stroke-width:{strokeWidth}px"
 	/></svg
 >

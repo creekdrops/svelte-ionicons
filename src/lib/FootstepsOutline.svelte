@@ -1,6 +1,7 @@
-<script>
-	export let size = '24';
-	export let color = 'currentColor';
+<script lang="ts">
+	export let size: string | number = "24";
+	export let strokeWidth: string | number = "32"
+	export let color: string = "currentColor";
 </script>
 
 <svg
@@ -17,24 +18,24 @@
 		fill="none"
 		stroke={color}
 		stroke-miterlimit="10"
-		stroke-width="32"
+		stroke-width={strokeWidth}
 	/><path
 		d="M223.65,409.53c3.13,33.28-14.86,64.34-42,69.66-27.4,5.36-58.71-16.37-65.09-49.19s17.75-34.56,47.32-40.21S219.87,369.39,223.65,409.53Z"
 		fill="none"
 		stroke={color}
 		stroke-miterlimit="10"
-		stroke-width="32"
+		stroke-width={strokeWidth}
 	/><path
 		d="M312,150.83c-8.81,58.62,7.33,90.67,52.9,97.41,50.66,7.49,71.52-26.44,80.33-85.06,11.86-78.89-16-128.22-55.7-131.1C353.13,29.44,320.82,92.21,312,150.83Z"
 		fill="none"
 		stroke={color}
 		stroke-miterlimit="10"
-		stroke-width="32"
+		stroke-width={strokeWidth}
 	/><path
 		d="M288.35,313.53c-3.13,33.27,14.86,64.34,42,69.66,27.4,5.36,58.71-16.37,65.09-49.19s-17.75-34.56-47.32-40.22S292.13,273.38,288.35,313.53Z"
 		fill="none"
 		stroke={color}
 		stroke-miterlimit="10"
-		stroke-width="32"
+		stroke-width={strokeWidth}
 	/></svg
 >

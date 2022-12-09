@@ -1,6 +1,7 @@
-<script>
-	export let size = '24';
-	export let color = 'currentColor';
+<script lang="ts">
+	export let size: string | number = "24";
+	export let strokeWidth: string | number = "48"
+	export let color: string = "currentColor";
 </script>
 
 <svg
@@ -13,12 +14,12 @@
 	class={$$props.class}
 	><polyline
 		points="112 268 256 412 400 268"
-		style="fill:none;stroke:{color};stroke-linecap:square;stroke-miterlimit:10;stroke-width:48px"
+		style="fill:none;stroke:{color};stroke-linecap:square;stroke-miterlimit:10;stroke-width:{strokeWidth}px"
 	/><line
 		x1="256"
 		y1="392"
 		x2="256"
 		y2="100"
-		style="fill:none;stroke:{color};stroke-linecap:square;stroke-miterlimit:10;stroke-width:48px"
+		style="fill:none;stroke:{color};stroke-linecap:square;stroke-miterlimit:10;stroke-width:{strokeWidth}px"
 	/></svg
 >

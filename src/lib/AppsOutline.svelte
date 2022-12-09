@@ -1,6 +1,7 @@
-<script>
-	export let size = '24';
-	export let color = 'currentColor';
+<script lang="ts">
+	export let size: string | number = "24";
+	export let strokeWidth: string | number = "32"
+	export let color: string = "currentColor";
 </script>
 
 <svg
@@ -18,7 +19,7 @@
 		height="80"
 		rx="40"
 		ry="40"
-		style="fill:none;stroke:{color};stroke-miterlimit:10;stroke-width:32px"
+		style="fill:none;stroke:{color};stroke-miterlimit:10;stroke-width:{strokeWidth}px"
 	/><rect
 		x="216"
 		y="64"
@@ -26,7 +27,7 @@
 		height="80"
 		rx="40"
 		ry="40"
-		style="fill:none;stroke:{color};stroke-miterlimit:10;stroke-width:32px"
+		style="fill:none;stroke:{color};stroke-miterlimit:10;stroke-width:{strokeWidth}px"
 	/><rect
 		x="368"
 		y="64"
@@ -34,7 +35,7 @@
 		height="80"
 		rx="40"
 		ry="40"
-		style="fill:none;stroke:{color};stroke-miterlimit:10;stroke-width:32px"
+		style="fill:none;stroke:{color};stroke-miterlimit:10;stroke-width:{strokeWidth}px"
 	/><rect
 		x="64"
 		y="216"
@@ -42,7 +43,7 @@
 		height="80"
 		rx="40"
 		ry="40"
-		style="fill:none;stroke:{color};stroke-miterlimit:10;stroke-width:32px"
+		style="fill:none;stroke:{color};stroke-miterlimit:10;stroke-width:{strokeWidth}px"
 	/><rect
 		x="216"
 		y="216"
@@ -50,7 +51,7 @@
 		height="80"
 		rx="40"
 		ry="40"
-		style="fill:none;stroke:{color};stroke-miterlimit:10;stroke-width:32px"
+		style="fill:none;stroke:{color};stroke-miterlimit:10;stroke-width:{strokeWidth}px"
 	/><rect
 		x="368"
 		y="216"
@@ -58,7 +59,7 @@
 		height="80"
 		rx="40"
 		ry="40"
-		style="fill:none;stroke:{color};stroke-miterlimit:10;stroke-width:32px"
+		style="fill:none;stroke:{color};stroke-miterlimit:10;stroke-width:{strokeWidth}px"
 	/><rect
 		x="64"
 		y="368"
@@ -66,7 +67,7 @@
 		height="80"
 		rx="40"
 		ry="40"
-		style="fill:none;stroke:{color};stroke-miterlimit:10;stroke-width:32px"
+		style="fill:none;stroke:{color};stroke-miterlimit:10;stroke-width:{strokeWidth}px"
 	/><rect
 		x="216"
 		y="368"
@@ -74,7 +75,7 @@
 		height="80"
 		rx="40"
 		ry="40"
-		style="fill:none;stroke:{color};stroke-miterlimit:10;stroke-width:32px"
+		style="fill:none;stroke:{color};stroke-miterlimit:10;stroke-width:{strokeWidth}px"
 	/><rect
 		x="368"
 		y="368"
@@ -82,6 +83,6 @@
 		height="80"
 		rx="40"
 		ry="40"
-		style="fill:none;stroke:{color};stroke-miterlimit:10;stroke-width:32px"
+		style="fill:none;stroke:{color};stroke-miterlimit:10;stroke-width:{strokeWidth}px"
 	/></svg
 >
