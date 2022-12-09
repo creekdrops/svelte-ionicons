@@ -13,8 +13,10 @@
 		BarcodeSharp,
 		BarcodeOutline
 	} from '$lib/index';
+	import Ionic from '$lib/Ionic.svelte';
 </script>
 
+<Ionic name="Wifi" size="100" />
 <AddSharp size="100" class="p-4" />
 <AddSharp size="100" class="m-4" />
 <AddSharp size="100" />
